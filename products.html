@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="assets/css/site.css">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 </head>
-<body>
+<body class="site-cosmic-bg">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="nav-shell">
@@ -32,10 +32,10 @@
           <article id="sase" class="product-card">
             <div class="icon-box" aria-hidden="true">SA</div>
             
-            <h3>SASE01EPZS / SASe Chip</h3>
-            <p>SASE01EPZS is IIST's Dynamic PUF-based secure co-processor platform for embedded systems. It helps device makers add hardware-rooted identity, trust separation, challenge-response behavior, and protected lifecycle functions to connected products.</p>
+            <h3>SASe Chip</h3>
+            <p>SASe Chip is IIST's Dynamic PUF-based secure co-processor platform for embedded systems. It helps device makers add hardware-rooted identity, trust separation, challenge-response behavior, and protected lifecycle functions to connected products.</p>
             <ul class="check-list"><li>Dynamic PUF foundation</li><li>Hardware-rooted identity</li><li>Multiple trust-function architecture</li><li>Embedded host integration</li><li>Secure lifecycle support</li></ul>
-            <a class="link" href="mailto:service@iist.com.tw?subject=IIST%20Technical%20Package%20Request">Request Technical Package</a>
+            <a class="link" href="contact.html">Discuss Chip Integration</a>
           </article>
           <article id="sasp" class="product-card">
             <div class="icon-box" aria-hidden="true">MC</div>
@@ -51,7 +51,7 @@
             <h3>IIST Trust Modules</h3>
             <p>IIST trust modules help teams evaluate hardware-rooted identity and trust functions without beginning with full chip-level integration.</p>
             <ul class="check-list"><li>Faster evaluation</li><li>OEM pilot support</li><li>Reduced integration friction</li><li>Hardware-rooted functions</li><li>System-level support</li></ul>
-            <a class="link" href="contact.html">Start Evaluation</a>
+            <a class="link" href="contact.html">Start Module Evaluation</a>
           </article>
           <article id="ankhor" class="product-card">
             <div class="icon-box" aria-hidden="true">AK</div>
@@ -59,7 +59,7 @@
             <h3>Ankhor Key</h3>
             <p>Ankhor Key is IIST's portable hardware trust key concept for authentication, operator workflows, signing, and scenario-defined trust functions.</p>
             <ul class="check-list"><li>FIDO2 authentication path</li><li>Hardware-rooted trust functions</li><li>Operator workflows</li><li>Signing support</li><li>Portable trust applications</li></ul>
-            <a class="link" href="contact.html">Discuss Authentication</a>
+            <a class="link" href="contact.html">Discuss Ankhor Key</a>
           </article>
         </div>
       </div>
@@ -67,24 +67,38 @@
 
     <section class="section">
       <div class="container">
-        <div class="feature-panel">
-          <div class="split top">
-            <div><p class="eyebrow">Technical Package</p><h2>Go deeper with the right technical package.</h2><p class="lead">Detailed specifications, development kit information, integration notes, and security evaluation materials are available for OEM, partner, and project-based evaluations.</p><div class="section-actions"><a class="btn" href="mailto:service@iist.com.tw?subject=IIST%20Technical%20Package%20Request">Request Technical Package</a></div></div>
-            <div class="grid two">
-              <article class="card"><div class="icon-box" aria-hidden="true">PB</div><h3>Product brief</h3></article>
-              <article class="card"><div class="icon-box" aria-hidden="true">IG</div><h3>Integration guide</h3></article>
-              <article class="card"><div class="icon-box" aria-hidden="true">DK</div><h3>Development kit information</h3></article>
-              <article class="card"><div class="icon-box" aria-hidden="true">SR</div><h3>Security architecture review</h3></article>
-              <article class="card"><div class="icon-box" aria-hidden="true">SE</div><h3>SESIP-related resources</h3></article>
-              <article class="card"><div class="icon-box" aria-hidden="true">CR</div><h3>CRA readiness discussion</h3></article>
-            </div>
-          </div>
+        <div class="section-head"><p class="eyebrow">Which Product Path Fits?</p><h2>Start from the form factor your system can adopt.</h2><p class="lead">IIST can support chip-level integration, module-based evaluation, secure MCU roadmap discussions, or portable hardware trust-key workflows. The right path depends on how deeply hardware-rooted trust needs to be embedded into your product.</p></div>
+        <div class="grid four">
+          <article class="card path-card">
+            <div class="icon-box" aria-hidden="true">CH</div>
+            <h3>Chip-Level Integration</h3>
+            <dl><div><dt>Best for</dt><dd>OEMs and embedded device makers designing trust into the product hardware.</dd></div><div><dt>Product</dt><dd>SASe Chip</dd></div><div><dt>Use when</dt><dd>You need hardware-rooted identity and trust functions close to the device architecture.</dd></div></dl>
+            <a class="link" href="contact.html">Discuss Chip Integration</a>
+          </article>
+          <article class="card path-card">
+            <div class="icon-box" aria-hidden="true">MC</div>
+            <h3>Secure MCU Roadmap</h3>
+            <dl><div><dt>Best for</dt><dd>Teams planning a more integrated programmable trust architecture.</dd></div><div><dt>Product</dt><dd>SASp Secure MCU</dd></div><div><dt>Use when</dt><dd>You are planning future products that require secure control, trust separation, and long-term lifecycle design.</dd></div></dl>
+            <a class="link" href="contact.html">Discuss Roadmap</a>
+          </article>
+          <article class="card path-card">
+            <div class="icon-box" aria-hidden="true">MO</div>
+            <h3>Module Evaluation</h3>
+            <dl><div><dt>Best for</dt><dd>Teams that want to test hardware-rooted trust before committing to board-level or chip-level design.</dd></div><div><dt>Product</dt><dd>IIST Trust Modules</dd></div><div><dt>Use when</dt><dd>You need a faster pilot, proof-of-concept, or OEM evaluation path.</dd></div></dl>
+            <a class="link" href="contact.html">Start Module Evaluation</a>
+          </article>
+          <article class="card path-card">
+            <div class="icon-box" aria-hidden="true">AK</div>
+            <h3>Portable Trust Key</h3>
+            <dl><div><dt>Best for</dt><dd>User, administrator, operator, and portable signing workflows.</dd></div><div><dt>Product</dt><dd>Ankhor Key</dd></div><div><dt>Use when</dt><dd>You need FIDO2 authentication, scenario-defined trust functions, or portable hardware-rooted signing.</dd></div></dl>
+            <a class="link" href="contact.html">Discuss Ankhor Key</a>
+          </article>
         </div>
       </div>
     </section>
 
     <section class="section tight">
-      <div class="container"><div class="cta-panel"><h2>Match the platform to your integration path.</h2><p class="lead">Tell IIST what you are building and where hardware-rooted trust needs to live: chip, module, key, or system workflow.</p><div class="section-actions"><a class="btn light" href="contact.html">Discuss Integration</a><a class="btn secondary" href="solutions.html">View Solutions</a></div></div></div>
+      <div class="container"><div class="cta-panel"><h2>Need the deeper technical package?</h2><p class="lead">Product briefs, integration resources, development kit information, SESIP-related materials, and CRA readiness discussions are available from the Resources page.</p><div class="section-actions"><a class="btn light" href="resources.html">View Resources</a><a class="btn secondary" href="contact.html">Contact Us</a></div></div></div>
     </section>
   </main>
 
@@ -92,7 +106,7 @@
     <div class="container footer-grid">
       <div><h2>IIST Inc.</h2><p>Hardware-rooted trust for connected devices.</p><p>Intelligent Information Security Technology Inc.</p></div>
       <div><h3>Solutions</h3><ul><li><a href="solutions.html#fido2">FIDO2 and companion trust</a></li><li><a href="solutions.html#c2pa">C2PA-compatible provenance</a></li><li><a href="solutions.html#robotics">AI and robotics trust</a></li><li><a href="solutions.html#chiplet">Chip and chiplet tracking</a></li></ul></div>
-      <div><h3>Products</h3><ul><li><a href="products.html#sase">SASE01EPZS / SASe Chip</a></li><li><a href="products.html#sasp">SASp Secure MCU</a></li><li><a href="products.html#modules">Trust Modules</a></li><li><a href="products.html#ankhor">Ankhor Key</a></li></ul></div>
+      <div><h3>Products</h3><ul><li><a href="products.html#sase">SASe Chip</a></li><li><a href="products.html#sasp">SASp Secure MCU</a></li><li><a href="products.html#modules">Trust Modules</a></li><li><a href="products.html#ankhor">Ankhor Key</a></li></ul></div>
       <div><h3>Resources</h3><ul><li><a href="resources.html#technical-resources">Technical resources</a></li><li><a href="resources.html#sesip-cra">SESIP / CRA readiness</a></li><li><a href="resources.html#patents">Patent references</a></li></ul></div>
       <div><h3>Contact</h3><ul><li><a href="contact.html">Contact Us</a></li><li><a href="mailto:service@iist.com.tw">service@iist.com.tw</a></li></ul></div>
     </div>
