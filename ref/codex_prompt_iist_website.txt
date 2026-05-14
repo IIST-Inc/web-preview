@@ -1,0 +1,135 @@
+You are working inside the IIST Inc. website repository. Build a polished multi-page website using the existing template and visual style found in `/ref/`, and the image assets found in `/img/`.
+
+FIRST STEPS
+1. Inspect `/ref/` and identify the template HTML, CSS, JavaScript, layout rhythm, typography, colors, buttons, cards, header/footer, spacing, and responsive behavior.
+2. Inspect `/img/` and map every image by likely use: chip/silicon, USB key, module/board, robotics/AIoT, content/provenance, abstract/circuit, team/company.
+3. Preserve the style of `/ref/`. Extend it into a multi-page website rather than inventing a new design system.
+4. Do not publish detailed chip specifications, exact interface speeds, clocks, power values, memory sizes, seed sizes, token behavior, command tables, package details, timing diagrams, or implementation internals.
+
+CREATE THESE PAGES
+- `index.html`
+- `solutions.html`
+- `technology.html`
+- `products.html`
+- `evaluation.html`
+- `resources.html`
+- `company.html`
+- `contact.html`
+
+GLOBAL NAVIGATION
+Header links:
+- Solutions
+- Technology
+- Products
+- Evaluation
+- Resources
+- Company
+- Contact
+
+Primary CTA: Contact IIST
+Secondary CTA: Request Technical Package
+
+DESIGN DIRECTION
+The site should look like a premium semiconductor/security company website: modern, technical, serious, clean, and trustworthy. Use dark technical sections, strong whitespace, precise cards, subtle gradients, circuit-grid overlays, and clean SVG/HTML diagrams where product images are missing.
+
+CLAIM DISCIPLINE
+Use careful words such as “supports,” “enables,” “designed for,” “qualified evaluation,” “integration path,” “C2PA-compatible,” “PQC-ready planning,” and “CRA mapping support.”
+
+Do not claim:
+- unbreakable security
+- impossible to hack
+- guaranteed CRA compliance
+- complete supply-chain solution
+- official C2PA Trust List registration completed
+- detailed public chip specs
+- private customer names or certification IDs unless already present in the approved website assets
+
+CONTENT SOURCE
+Use the complete copy in `/mnt/data/iist_website_content_pack.md` if available, or paste that content into the project. Keep section headings and wording close to the source content.
+
+REQUIRED CONTENT HIGHLIGHTS
+Homepage:
+- Hero headline: “Hardware-rooted trust for connected devices.”
+- Problem headline: “Stored secrets do not scale trust.”
+- Solution headline: “Secrets should be born, not stored.”
+- Include solution cards for FIDO2, C2PA, Robotics Trust, Chip/Chiplet Trust Tracking.
+- Include product preview for SASE01EPZS / SASe Chip, SASp Secure MCU, Trust Modules, Ankhor Key.
+
+Solutions page:
+- FIDO2 + custom-defined scenario functions must clearly separate FIDO2/WebAuthn standard flow from IIST companion custom-defined functions.
+- C2PA section must include warning: official C2PA Trust List / root certificate registration pending.
+- Robotics trust section must include statement: robots are physical actors and should prove identity, state, data origin, and authorization before action.
+- Chip/chiplet trust tracker section must avoid overclaiming and say PUF supports traceability as one layer when integrated with manufacturing, packaging, secure records, and verification policy.
+- Secure communication section must say PQC-ready planning, not full hardware PQC claim.
+- SESIP/CRA section must say IIST can support mapping discussions, not guarantee CRA compliance.
+
+Technology page:
+- Explain Dynamic PUF as hardware digital DNA.
+- Explain one device / many trust functions.
+- Explain custom-defined scenario functions without publishing token or command details.
+- Include evaluation support without overexposure.
+
+Products page:
+- Use high-level product briefs only.
+- Do not create detailed public datasheet tables.
+- For SASE01EPZS / SASe Chip, use public copy: “Dynamic PUF-based secure co-processor platform for embedded systems,” “hardware-rooted identity,” “multiple trust-function architecture,” and “qualified SESIP / CRA mapping discussions.”
+- Add CTA for technical package under qualified engagement.
+
+Evaluation page:
+- Include SESIP resources and CRA mapping support.
+- Include disclaimers that final CRA conformity depends on the complete customer product, software, lifecycle process, vulnerability handling, documentation, operating environment, and market requirements.
+
+Resources page:
+- Create request cards for Company Overview, Dynamic PUF Overview, Trust Architecture, Product Overview, Authentication Solutions, C2PA / Content Authenticity, Robotics Trust, OEM Integration Guide, SESIP / CRA Mapping.
+- If documents do not exist in `/docs/`, use mailto fallback.
+
+Company page:
+- “Building trust from silicon.”
+- Taiwan ↔ Europe / global market ecosystem story.
+- Optional team section only if template/assets support it. Confirm final names/titles before publishing.
+
+Contact page:
+- Contact paths for product evaluation, OEM integration, SESIP/CRA mapping, strategic discussion.
+- Form fields: name, company, email, role, interest area, message.
+- Mailto fallback: `mailto:service@iist.com.tw?subject=IIST%20Website%20Inquiry`
+
+IMAGE PLACEMENT
+Use `/img/` assets as follows:
+- Homepage hero: best chip/silicon/digital-DNA image.
+- FIDO2: USB key/authenticator image or flow diagram.
+- C2PA: content/media/document image or provenance pipeline.
+- Robotics: robot/AIoT/automation image or fleet diagram.
+- Chiplet tracker: wafer/chip/package image or manufacturing timeline.
+- Technology: chip/circuit image and layered trust diagram.
+- Products: actual product images if identifiable; otherwise technical cards.
+- Company: Taiwan/semiconductor/team image if available; otherwise ecosystem diagram.
+
+ACCESSIBILITY
+- Semantic HTML
+- Proper heading hierarchy
+- Alt text for all images
+- Keyboard navigation
+- Visible focus states
+- High contrast text
+- Responsive mobile navigation
+
+SEO
+Add page titles and meta descriptions as defined in the content pack.
+
+FINAL QUALITY CHECK
+Before finishing:
+- All pages open locally.
+- Header/footer links work.
+- No broken image paths.
+- No console errors.
+- Mobile layout works.
+- No detailed chip specs are public.
+- C2PA warning appears wherever C2PA is discussed.
+- SESIP mentions include CRA mapping support and no compliance guarantee.
+- PQC wording is careful.
+- FIDO2 standard flow and IIST companion functions are separated.
+- PUF chiplet tracker avoids overclaiming.
+- CTAs do not point to missing files; use mailto fallback where needed.
+
+DELIVERABLE
+Create the complete website files and provide a short implementation summary listing pages created, assets used, missing image/doc fallbacks, where the C2PA notice appears, where SESIP/CRA mapping appears, and how to preview the site.
