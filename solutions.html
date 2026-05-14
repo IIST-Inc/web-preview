@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>IIST Solutions | FIDO2, C2PA, AI and Robotics Trust, Chiplet Tracking</title>
   <meta name="description" content="Explore IIST hardware-rooted trust solutions for FIDO2 authentication, custom scenario functions, C2PA-compatible provenance, AI and robotics trust, secure communication, and chip/chiplet traceability.">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
   <link rel="stylesheet" href="assets/css/site.css">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 </head>
@@ -21,56 +22,57 @@
   <main id="main">
     <section class="hero page-hero">
       <div class="container">
-        <div><h1>Solutions for hardware-rooted trust.</h1><p class="lead">IIST maps Dynamic PUF-based hardware trust into real deployment needs: authentication, device identity, content authenticity, AI and robotics trust, chip traceability, secure communication, and long-term security planning.</p></div>
+        <div><h1>Hardware trust solutions for connected products.</h1><p class="lead">IIST helps OEMs use Dynamic PUF-based hardware to add identity, authentication, signing, provenance, and lifecycle trust to real devices and systems.</p></div>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
+        <div class="section-head"><p class="eyebrow">Trust Layer</p><h2>Not just more security features. A trust layer.</h2><p class="lead">Security features protect access, data, and systems. A trust layer proves identity, origin, authorization, and lifecycle events. IIST builds that trust layer from hardware so connected products can prove more than they can store.</p></div>
         <div class="section-head"><p class="eyebrow">Start By Need</p><h2>I need to...</h2></div>
         <div class="grid three">
-          <article class="card"><div class="icon-box" aria-hidden="true">01</div><h3>Authenticate users or administrators</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">02</div><h3>Prove device identity</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">03</div><h3>Sign content, logs, or machine evidence</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">04</div><h3>Secure robots and AIoT systems</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">05</div><h3>Track chips, modules, or chiplets</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">06</div><h3>Support security review and CRA readiness</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-fingerprint"></i></div><h3>Authenticate users or administrators</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-identification-card"></i></div><h3>Prove device identity</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-signature"></i></div><h3>Sign content, logs, or machine evidence</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-robot"></i></div><h3>Secure robots and AIoT systems</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-git-branch"></i></div><h3>Track chips, modules, or chiplets</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-certificate"></i></div><h3>Support security review and CRA readiness</h3></article>
         </div>
       </div>
     </section>
 
     <section id="fido2" class="section">
       <div class="container">
-        <div class="section-head"><p class="eyebrow">Authentication</p><h2>FIDO2 authentication with custom scenario functions.</h2><p class="lead">FIDO2/WebAuthn provides a standard path for phishing-resistant user authentication. IIST uses this path as the user-facing authentication layer, then supports companion hardware-rooted functions for device identity, secure actions, and lifecycle events.</p></div>
+        <div class="section-head"><p class="eyebrow">Authentication</p><h2>FIDO2 authentication with custom scenario functions.</h2><p class="lead">FIDO2/WebAuthn provides a standard path for phishing-resistant user authentication. IIST uses this path as the user-facing authentication layer, then supports companion hardware-rooted functions for device identity, secure actions, and lifecycle events.</p><div class="product-path"><span>Product path</span><strong>Ankhor Key / Trust Module</strong></div></div>
         <div class="feature-panel">
           <div class="split top">
             <div>
               <div class="notice note-card">IIST companion functions are separate from the FIDO2 standard and are designed around the customer's deployment scenario.</div>
               <div class="grid two" style="margin-top:24px">
-                <article class="card"><div class="icon-box" aria-hidden="true">A</div><h3>Router and gateway administrator access</h3></article>
-                <article class="card"><div class="icon-box" aria-hidden="true">O</div><h3>Operator authentication</h3></article>
-                <article class="card"><div class="icon-box" aria-hidden="true">R</div><h3>Role-separated access</h3></article>
-                <article class="card"><div class="icon-box" aria-hidden="true">C</div><h3>Hardware-bound challenge-response</h3></article>
-                <article class="card"><div class="icon-box" aria-hidden="true">P</div><h3>Secure provisioning</h3></article>
-                <article class="card"><div class="icon-box" aria-hidden="true">L</div><h3>Signed lifecycle events</h3></article>
+                <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-router"></i></div><h3>Router and gateway administrator access</h3></article>
+                <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-user-check"></i></div><h3>Operator authentication</h3></article>
+                <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-users-three"></i></div><h3>Role-separated access</h3></article>
+                <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-shield-check"></i></div><h3>Hardware-bound challenge-response</h3></article>
+                <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-package"></i></div><h3>Secure provisioning</h3></article>
+                <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-signature"></i></div><h3>Signed lifecycle events</h3></article>
               </div>
             </div>
             <div class="diagram-art diagram-fido-flow" role="img" aria-label="Two-layer flow showing standard FIDO2 authentication and IIST companion hardware trust functions">
               <div class="diagram-lane">
                 <p class="diagram-lane-title">Standard FIDO2 path</p>
                 <div class="diagram-track">
-                  <div class="diagram-node"><span class="diagram-icon">U</span><span>User</span></div>
-                  <div class="diagram-node"><span class="diagram-icon">A</span><span>Browser / App</span></div>
-                  <div class="diagram-node"><span class="diagram-icon">F</span><span>FIDO2 Authenticator</span></div>
-                  <div class="diagram-node"><span class="diagram-icon">S</span><span>Server</span></div>
+                  <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-user"></i></span><span>User</span></div>
+                  <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-browser"></i></span><span>Browser / App</span></div>
+                  <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-fingerprint"></i></span><span>FIDO2 Authenticator</span></div>
+                  <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-server"></i></span><span>Server</span></div>
                 </div>
               </div>
               <div class="diagram-lane companion">
                 <p class="diagram-lane-title">IIST companion trust path</p>
                 <div class="diagram-track">
-                  <div class="diagram-node"><span class="diagram-icon">H</span><span>IIST Hardware Trust</span></div>
-                  <div class="diagram-node"><span class="diagram-icon">ID</span><span>Device Identity</span></div>
-                  <div class="diagram-node"><span class="diagram-icon">L</span><span>Secure Action / Lifecycle Event</span></div>
+                  <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-cpu"></i></span><span>IIST Hardware Trust</span></div>
+                  <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-identification-card"></i></span><span>Device Identity</span></div>
+                  <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-shield-check"></i></span><span>Secure Action / Lifecycle Event</span></div>
                 </div>
               </div>
             </div>
@@ -81,25 +83,25 @@
 
     <section id="c2pa" class="section">
       <div class="container">
-        <div class="section-head"><p class="eyebrow">Provenance</p><h2>C2PA-compatible provenance.</h2><p class="lead">As AI-generated content and machine-generated data increase, provenance becomes more valuable than detection alone. IIST supports C2PA-compatible workflows where content, logs, sensor outputs, inspection records, or robotic evidence can be signed and verified with hardware-rooted trust.</p></div>
+        <div class="section-head"><p class="eyebrow">Provenance</p><h2>C2PA-compatible provenance.</h2><p class="lead">As AI-generated content and machine-generated data increase, provenance becomes more valuable than detection alone. IIST supports C2PA-compatible workflows where content, logs, sensor outputs, inspection records, or robotic evidence can be signed and verified with hardware-rooted trust.</p><div class="product-path"><span>Product path</span><strong>Ankhor Key / Trust Module / SASe Chip</strong></div></div>
         <div class="split top">
           <div class="diagram-art diagram-c2pa-flow" role="img" aria-label="C2PA-compatible workflow from capture through verification">
             <div class="diagram-track">
-              <div class="diagram-node"><span class="diagram-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4h10l4 4v12H5V4Zm9 1.5V9h3.5L14 5.5ZM8 12h8v2H8v-2Zm0 4h6v2H8v-2Z"/></svg></span><span>Capture / Create</span></div>
-              <div class="diagram-node"><span class="diagram-icon">#</span><span>Hash</span></div>
-              <div class="diagram-node"><span class="diagram-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.6 3.4 20.6 7 9.4 18.2 5 19l.8-4.4L16.6 3.4ZM4 21h16v-2H4v2Z"/></svg></span><span>Sign Provenance</span></div>
-              <div class="diagram-node"><span class="diagram-icon">M</span><span>Attach Manifest</span></div>
-              <div class="diagram-node"><span class="diagram-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 20 5v6c0 5-3.4 9.6-8 11-4.6-1.4-8-6-8-11V5l8-3Zm-1 13.2 5.2-5.2-1.4-1.4L11 12.4 9.2 10.6 7.8 12l3.2 3.2Z"/></svg></span><span>Verify</span></div>
+              <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-file"></i></span><span>Capture / Create</span></div>
+              <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-hash"></i></span><span>Hash</span></div>
+              <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-signature"></i></span><span>Sign Provenance</span></div>
+              <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-file-lock"></i></span><span>Attach Manifest</span></div>
+              <div class="diagram-node"><span class="diagram-icon"><i class="ph ph-shield-check"></i></span><span>Verify</span></div>
             </div>
           </div>
           <div>
             <div class="grid two">
-              <article class="card"><div class="icon-box" aria-hidden="true">I</div><h3>Signed images and documents</h3></article>
-              <article class="card"><div class="icon-box" aria-hidden="true">L</div><h3>Machine logs</h3></article>
-              <article class="card"><div class="icon-box" aria-hidden="true">S</div><h3>Sensor data</h3></article>
-              <article class="card"><div class="icon-box" aria-hidden="true">R</div><h3>Robotic inspection outputs</h3></article>
-              <article class="card"><div class="icon-box" aria-hidden="true">D</div><h3>Industrial records</h3></article>
-              <article class="card"><div class="icon-box" aria-hidden="true">A</div><h3>AI data pipeline evidence</h3></article>
+              <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-image-square"></i></div><h3>Signed images and documents</h3></article>
+              <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-list-checks"></i></div><h3>Machine logs</h3></article>
+              <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-gauge"></i></div><h3>Sensor data</h3></article>
+              <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-robot"></i></div><h3>Robotic inspection outputs</h3></article>
+              <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-clipboard-text"></i></div><h3>Industrial records</h3></article>
+              <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-chart-line"></i></div><h3>AI data pipeline evidence</h3></article>
             </div>
             <div class="notice note-card" style="margin-top:24px"><strong>C2PA integration note:</strong> IIST supports C2PA-compatible content authenticity workflows. Public trust-list registration is in progress, so pilot deployments can use private, enterprise, or staged trust-chain models.</div>
           </div>
@@ -109,24 +111,24 @@
 
     <section id="robotics" class="section">
       <div class="container">
-        <div class="section-head"><p class="eyebrow">AI and Robotics Trust</p><h2>Trust for robotics before action.</h2><p class="lead">Robots are becoming physical actors in the real world. Before a robot moves, updates, reports, or accepts remote commands, it should be able to prove who it is, what state it is in, where its data came from, and which operator, model, or policy authorized the action.</p></div>
+        <div class="section-head"><p class="eyebrow">AI and Robotics Trust</p><h2>Trust for robotics before action.</h2><p class="lead">Robots are becoming physical actors in the real world. Before a robot moves, updates, reports, or accepts remote commands, it should be able to prove who it is, what state it is in, where its data came from, and which operator, model, or policy authorized the action.</p><div class="product-path"><span>Product path</span><strong>Trust Module / SASe Chip</strong></div></div>
         <div class="split top">
           <div class="grid two">
-            <article class="card"><div class="icon-box" aria-hidden="true">ID</div><h3>Robot and controller identity</h3></article>
-            <article class="card"><div class="icon-box" aria-hidden="true">OP</div><h3>Operator authentication</h3></article>
-            <article class="card"><div class="icon-box" aria-hidden="true">SE</div><h3>Sensor and log provenance</h3></article>
-            <article class="card"><div class="icon-box" aria-hidden="true">IR</div><h3>Signed inspection reports</h3></article>
-            <article class="card"><div class="icon-box" aria-hidden="true">FW</div><h3>Secure firmware update path</h3></article>
-            <article class="card"><div class="icon-box" aria-hidden="true">FL</div><h3>Fleet onboarding</h3></article>
+            <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-identification-card"></i></div><h3>Robot and controller identity</h3></article>
+            <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-user-check"></i></div><h3>Operator authentication</h3></article>
+            <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-signature"></i></div><h3>Sensor and log provenance</h3></article>
+            <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-clipboard-text"></i></div><h3>Signed inspection reports</h3></article>
+            <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-upload-simple"></i></div><h3>Secure firmware update path</h3></article>
+            <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-network"></i></div><h3>Fleet onboarding</h3></article>
           </div>
           <div class="diagram-art diagram-robotics-trust" role="img" aria-label="Robot edge controller connected to robot identity, operator authorization, firmware trust, sensor evidence, and verified report">
             <div class="robotics-map">
-              <div class="diagram-spoke s1"><span class="diagram-icon">ID</span><span>Robot Identity</span></div>
-              <div class="diagram-spoke s2"><span class="diagram-icon">OP</span><span>Operator Authorization</span></div>
-              <div class="diagram-hub"><span class="diagram-icon">R</span><span>Robot / Edge Controller</span></div>
-              <div class="diagram-spoke s3"><span class="diagram-icon">FW</span><span>Firmware Trust</span></div>
-              <div class="diagram-spoke s4"><span class="diagram-icon">SE</span><span>Sensor Evidence</span></div>
-              <div class="diagram-spoke s5"><span class="diagram-icon">VR</span><span>Verified Report</span></div>
+              <div class="diagram-spoke s1"><span class="diagram-icon"><i class="ph ph-identification-card"></i></span><span>Robot Identity</span></div>
+              <div class="diagram-spoke s2"><span class="diagram-icon"><i class="ph ph-user-check"></i></span><span>Operator Authorization</span></div>
+              <div class="diagram-hub"><span class="diagram-icon"><i class="ph ph-robot"></i></span><span>Robot / Edge Controller</span></div>
+              <div class="diagram-spoke s3"><span class="diagram-icon"><i class="ph ph-upload-simple"></i></span><span>Firmware Trust</span></div>
+              <div class="diagram-spoke s4"><span class="diagram-icon"><i class="ph ph-gauge"></i></span><span>Sensor Evidence</span></div>
+              <div class="diagram-spoke s5"><span class="diagram-icon"><i class="ph ph-shield-check"></i></span><span>Verified Report</span></div>
             </div>
           </div>
         </div>
@@ -135,23 +137,23 @@
 
     <section id="chiplet" class="section">
       <div class="container">
-        <div class="section-head"><p class="eyebrow">Hardware Traceability</p><h2>PUF-based trust tracking for chips, modules, and chiplets.</h2><p class="lead">Dynamic PUF can add hardware-rooted identity evidence to chip, module, and chiplet traceability workflows when combined with manufacturing records, packaging flow, secure databases, and verification policy.</p></div>
+        <div class="section-head"><p class="eyebrow">Hardware Traceability</p><h2>PUF-based trust tracking for chips, modules, and chiplets.</h2><p class="lead">Dynamic PUF can add hardware-rooted identity evidence to chip, module, and chiplet traceability workflows when combined with manufacturing records, packaging flow, secure databases, and verification policy.</p><div class="product-path"><span>Product path</span><strong>SASe Chip / partner integration</strong></div></div>
         <div class="grid three">
-          <article class="card"><div class="icon-box" aria-hidden="true">W</div><h3>Wafer or die enrollment</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">L</div><h3>Lot and package association</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">B</div><h3>Chiplet identity binding</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">M</div><h3>Module commissioning</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">F</div><h3>Field lifecycle verification</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">R</div><h3>Secure RMA support</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-circle"></i></div><h3>Wafer or die enrollment</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-package"></i></div><h3>Lot and package association</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-cpu"></i></div><h3>Chiplet identity binding</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-circuitry"></i></div><h3>Module commissioning</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-device-mobile-camera"></i></div><h3>Field lifecycle verification</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-arrows-clockwise"></i></div><h3>Secure RMA support</h3></article>
         </div>
         <div class="diagram-art diagram-chiplet-tracking" style="margin-top:28px" role="img" aria-label="Manufacturing journey from wafer to field device with enrollment and verification checkpoints">
           <div class="diagram-journey">
-            <div class="diagram-stage"><span class="diagram-icon">W</span><span>Wafer</span></div>
-            <div class="diagram-stage"><span class="diagram-icon">D</span><span>Die</span></div>
-            <div class="diagram-stage"><span class="diagram-icon">C</span><span>Chiplet</span></div>
-            <div class="diagram-stage"><span class="diagram-icon">P</span><span>Package</span></div>
-            <div class="diagram-stage"><span class="diagram-icon">M</span><span>Module</span></div>
-            <div class="diagram-stage"><span class="diagram-icon">F</span><span>Field Device</span></div>
+            <div class="diagram-stage"><span class="diagram-icon"><i class="ph ph-circle"></i></span><span>Wafer</span></div>
+            <div class="diagram-stage"><span class="diagram-icon"><i class="ph ph-square"></i></span><span>Die</span></div>
+            <div class="diagram-stage"><span class="diagram-icon"><i class="ph ph-cpu"></i></span><span>Chiplet</span></div>
+            <div class="diagram-stage"><span class="diagram-icon"><i class="ph ph-package"></i></span><span>Package</span></div>
+            <div class="diagram-stage"><span class="diagram-icon"><i class="ph ph-circuitry"></i></span><span>Module</span></div>
+            <div class="diagram-stage"><span class="diagram-icon"><i class="ph ph-device-mobile-camera"></i></span><span>Field Device</span></div>
           </div>
           <div class="checkpoint-row" aria-label="Traceability checkpoints"><span class="checkpoint">Enroll</span><span class="checkpoint">Bind</span><span class="checkpoint">Verify</span><span class="checkpoint">Operate</span><span class="checkpoint">Recheck</span></div>
         </div>
@@ -160,14 +162,14 @@
 
     <section id="secure-communication" class="section">
       <div class="container">
-        <div class="section-head"><p class="eyebrow">Secure Communication</p><h2>Secure communication and PQC-ready planning.</h2><p class="lead">IIST supports secure communication planning by providing hardware-rooted identity, entropy, key-derivation support concepts, and lifecycle trust functions. This helps customers plan secure onboarding, device-to-cloud trust, device-to-device communication, and long-term migration paths.</p></div>
+        <div class="section-head"><p class="eyebrow">Secure Communication</p><h2>Secure communication and PQC-ready planning.</h2><p class="lead">IIST supports secure communication planning by providing hardware-rooted identity, entropy, key-derivation support concepts, and lifecycle trust functions. This helps customers plan secure onboarding, device-to-cloud trust, device-to-device communication, and long-term migration paths.</p><div class="product-path"><span>Product path</span><strong>SASe Chip / SASp roadmap</strong></div></div>
         <div class="grid three">
-          <article class="card"><div class="icon-box" aria-hidden="true">DC</div><h3>Device-to-cloud onboarding</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">DD</div><h3>Device-to-device trust</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">SP</div><h3>Secure provisioning</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">SU</div><h3>Secure update authorization</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">LL</div><h3>Long-life device planning</h3></article>
-          <article class="card"><div class="icon-box" aria-hidden="true">PQ</div><h3>PQC migration preparation</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-cloud"></i></div><h3>Device-to-cloud onboarding</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-network"></i></div><h3>Device-to-device trust</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-package"></i></div><h3>Secure provisioning</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-upload-simple"></i></div><h3>Secure update authorization</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-hourglass-high"></i></div><h3>Long-life device planning</h3></article>
+          <article class="card"><div class="icon-box" aria-hidden="true"><i class="ph ph-key"></i></div><h3>PQC migration preparation</h3></article>
         </div>
       </div>
     </section>
@@ -193,7 +195,7 @@
       <div><h3>Resources</h3><ul><li><a href="resources.html#technical-resources">Technical resources</a></li><li><a href="resources.html#sesip-cra">SESIP / CRA readiness</a></li><li><a href="resources.html#patents">Patent references</a></li></ul></div>
       <div><h3>Contact</h3><ul><li><a href="contact.html">Contact Us</a></li><li><a href="mailto:service@iist.com.tw">service@iist.com.tw</a></li></ul></div>
     </div>
-    <div class="container footer-bottom"><p class="footer-note">Technical information is provided for evaluation and integration planning. Detailed product materials are available for OEM and partner evaluations. Security outcomes depend on the complete product, software lifecycle, and operating environment.</p></div>
+    <div class="container footer-bottom"><p class="footer-note">© 2026 IIST Inc. All rights reserved.</p></div>
   </footer>
   <script src="assets/js/site.js"></script>
 </body>
