@@ -16,7 +16,7 @@ if (toggle && nav) {
 }
 
 const current = window.location.pathname.split("/").pop() || "index.html";
-document.querySelectorAll(".main-nav a").forEach((link) => {
+document.querySelectorAll(".main-nav a:not(.nav-cta)").forEach((link) => {
   const href = link.getAttribute("href");
   if (href === current) {
     link.setAttribute("aria-current", "page");
