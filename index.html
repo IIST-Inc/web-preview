@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IIST Inc. | Hardware-Rooted Trust for Connected Devices</title>
-  <meta name="description" content="IIST builds Dynamic PUF-based chips, modules, and portable trust hardware for authentication, content authenticity, device identity, robotics trust, secure communication, and CRA-ready product security planning.">
+  <title>IIST Inc. | Hardware-rooted trust for connected devices</title>
+  <meta name="description" content="IIST builds Dynamic PUF-based chips, modules, and trust keys for hardware-rooted identity, authentication, provenance, robotics trust, and connected-device security.">
   <link rel="stylesheet" href="assets/css/site.css">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 </head>
@@ -19,29 +19,27 @@
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span></button>
       <nav class="main-nav" aria-label="Main navigation">
         <a href="solutions.html">Solutions</a>
-        <a href="technology.html">Technology</a>
         <a href="products.html">Products</a>
-        
         <a href="resources.html">Resources</a>
-        <a href="company.html">Company</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
+
   <main id="main">
     <section class="hero">
       <div class="container">
         <div>
-          <p class="eyebrow">Dynamic PUF Trust Infrastructure</p>
+          <p class="eyebrow">Trust born from silicon</p>
           <h1>Hardware-rooted trust for connected devices.</h1>
-          <p class="lead">IIST builds Dynamic PUF-based chips, modules, and portable trust hardware so identity, authentication, provenance, and secure operation can begin from silicon, not from stored secrets alone.</p>
+          <p class="lead">IIST builds Dynamic PUF-based chips, modules, and trust keys so identity, authentication, provenance, and secure operation can start from silicon, not from stored secrets.</p>
           <div class="hero-actions">
             <a class="btn" href="solutions.html">Explore Solutions</a>
-            <a class="btn dark-secondary" href="mailto:service@iist.com.tw?subject=IIST%20Technical%20Package%20Request">Request Technical Package</a>
+            <a class="btn dark-secondary" href="contact.html">Talk to IIST</a>
           </div>
           <div class="badges" aria-label="Trust highlights">
-            <span class="badge">Generated, not stored</span>
             <span class="badge">Dynamic PUF</span>
+            <span class="badge">Generated, not stored</span>
             <span class="badge">Multiple trust functions</span>
             <span class="badge">FIDO2 integration path</span>
             <span class="badge">C2PA-compatible workflows</span>
@@ -49,7 +47,38 @@
           </div>
         </div>
         <div class="image-card">
-          <img src="assets/img/secure-chip-platform.png" alt="Generated illustration of a secure chip platform on an evaluation board with subtle trust signal paths">
+          <img src="assets/img/secure-chip-platform.png" alt="Generated illustration of a secure chip platform on an evaluation board with hardware trust signal paths">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What IIST Does</p>
+          <h2>We create trust where connected systems need it most.</h2>
+          <p class="lead">Connected products need to prove who they are, who is operating them, whether their data can be trusted, and whether lifecycle events are authorized. IIST helps OEMs, ODMs, semiconductor partners, and system builders add hardware-rooted trust from the device level upward.</p>
+        </div>
+        <div class="grid four">
+          <article class="card"><h3>Authenticate users and devices</h3><p>Support phishing-resistant authentication paths, device identity, challenge-response behavior, and role-separated trust functions.</p></article>
+          <article class="card"><h3>Protect data and provenance</h3><p>Bind important data, logs, content, or machine evidence to hardware-rooted signing and verification workflows.</p></article>
+          <article class="card"><h3>Secure connected machines</h3><p>Help robots, AIoT systems, routers, gateways, and industrial devices prove identity before accepting commands, updates, or reporting evidence.</p></article>
+          <article class="card"><h3>Track trust across hardware</h3><p>Use Dynamic PUF as a hardware-rooted trust foundation for chip, module, and chiplet traceability workflows when integrated with manufacturing and verification systems.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wash">
+      <div class="container split top">
+        <div>
+          <p class="eyebrow">Problem</p>
+          <h2>Stored secrets do not scale trust.</h2>
+          <p class="lead">Many connected systems still depend on secrets that are written, stored, copied, injected, or moved across environments. When trust depends only on stored material, the trust anchor can become separated from the hardware it was meant to protect.</p>
+        </div>
+        <div class="grid">
+          <article class="card"><h3>Written secrets can leak.</h3></article>
+          <article class="card"><h3>Stored secrets can be extracted.</h3></article>
+          <article class="card"><h3>Copied secrets can be reused.</h3></article>
         </div>
       </div>
     </section>
@@ -57,39 +86,28 @@
     <section class="section">
       <div class="container split top">
         <div>
-          <p class="eyebrow">Problem</p>
-          <h2>Stored secrets do not scale trust.</h2>
-          <p class="lead">Connected systems must prove who they are, protect what they hold, verify where data came from, and authenticate what they are allowed to do. But many devices still depend on secrets that are written, injected, or stored.</p>
-          <p>What is written can be stolen. What is stored can be copied. What is copied can be reused across systems. This affects routers, gateways, AIoT devices, robotics systems, firmware updates, API credentials, machine identity, and modern data pipelines.</p>
+          <p class="eyebrow">Solution</p>
+          <h2>Secrets should be born, not stored.</h2>
+          <p class="lead">Dynamic PUF uses silicon behavior as a source of hardware-rooted trust material. IIST uses this foundation to support unique device identity, multiple trust functions, challenge-response mechanisms, local protection, and secure lifecycle workflows.</p>
         </div>
-        <div class="diagram" role="img" aria-label="Write store reuse risk diagram">
-          <div class="flow"><span>Write</span><b>-></b><span>Store</span><b>-></b><span>Reuse</span></div>
-          <p class="lead">What is written can be stolen. What is stored can be copied. What is copied can be reused.</p>
+        <div class="diagram" role="img" aria-label="Silicon to application trust flow">
+          <div class="flow"><span>Silicon behavior</span><b>-></b><span>Dynamic PUF</span><b>-></b><span>Root Identity</span><b>-></b><span>Trust Functions</span><b>-></b><span>Applications</span></div>
         </div>
-      </div>
-      <div class="container grid three" style="margin-top:38px">
-        <article class="card"><h3>Identity can drift from hardware</h3><p>When credentials are copied, trust no longer stays attached to the device.</p></article>
-        <article class="card"><h3>Trust functions multiply</h3><p>FIDO2, device identity, secure channels, OTA updates, data signing, and PQC migration all need trusted root material.</p></article>
-        <article class="card"><h3>Lifecycle risk grows over time</h3><p>Long-lived products need trust that can be provisioned, separated, verified, and reviewed through deployment.</p></article>
       </div>
     </section>
 
-    <section class="section wash">
-      <div class="container split">
-        <div>
-          <p class="eyebrow">Solution</p>
-          <h2>Secrets should be born, not stored.</h2>
-          <p class="lead">Dynamic PUF turns natural silicon behavior into hardware-rooted trust material. Instead of relying only on externally injected secrets, IIST helps products derive trust from the device itself.</p>
-          <ul class="check-list">
-            <li>Hardware-bound identity</li>
-            <li>Keys and trust material generated when needed</li>
-            <li>Reduced dependence on persistent stored secrets</li>
-            <li>Multiple trust functions from one hardware foundation</li>
-            <li>Integration paths for OEM products, modules, and portable trust devices</li>
-          </ul>
+    <section class="section dark-band">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Who IIST Helps</p>
+          <h2>Built for teams turning connected devices into trusted systems.</h2>
         </div>
-        <div class="diagram" role="img" aria-label="Silicon behavior to deployed applications trust layer diagram">
-          <div class="flow"><span>Silicon behavior</span><b>-></b><span>Dynamic PUF</span><b>-></b><span>Trust material</span><b>-></b><span>Separated functions</span><b>-></b><span>Applications</span></div>
+        <div class="grid three">
+          <article class="card dark"><h3>OEMs and ODMs</h3><p>Add hardware-rooted identity, authentication, provisioning, and lifecycle trust into connected products without building a trust platform from scratch.</p></article>
+          <article class="card dark"><h3>Networking and gateway makers</h3><p>Strengthen administrator access, firmware-update workflows, device identity, and secure management paths.</p></article>
+          <article class="card dark"><h3>Robotics and AIoT teams</h3><p>Connect robot identity, operator authorization, sensor evidence, update integrity, and fleet lifecycle trust.</p></article>
+          <article class="card dark"><h3>Semiconductor and module partners</h3><p>Explore PUF-based identity, module trust, chip traceability, and chiplet verification support as part of a larger manufacturing and security workflow.</p></article>
+          <article class="card dark"><h3>Security and compliance teams</h3><p>Use IIST's hardware-rooted trust architecture and SESIP-related resources to support security review and CRA application mapping discussions.</p></article>
         </div>
       </div>
     </section>
@@ -98,94 +116,89 @@
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Solutions</p>
-          <h2>Trust functions mapped to real deployment needs.</h2>
+          <h2>Solutions that connect silicon trust to real deployment scenarios.</h2>
         </div>
         <div class="grid four">
-          <article class="card"><div class="icon-box" aria-hidden="true"><svg viewBox="0 0 32 32"><path fill="currentColor" d="M7 14h18v4H7z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M12 10a4 4 0 1 1 8 0v4h-8z"/></svg></div><h3>Authentication & FIDO2</h3><p>Use FIDO2 as the standard login path, then extend deployment scenarios with IIST hardware-rooted companion functions.</p><a class="link" href="solutions.html#fido2">View Authentication Solution</a></article>
-          <article class="card"><div class="icon-box" aria-hidden="true"><svg viewBox="0 0 32 32"><path fill="none" stroke="currentColor" stroke-width="2" d="M8 5h12l4 4v18H8zM20 5v5h5M11 17h10M11 22h7"/></svg></div><h3>Content Authenticity & C2PA</h3><p>Support C2PA-compatible workflows for signing and verifying provenance of media, documents, logs, and sensor outputs.</p><a class="link" href="solutions.html#c2pa">View C2PA Integration Path</a></article>
-          <article class="card"><div class="icon-box" aria-hidden="true"><svg viewBox="0 0 32 32"><path fill="none" stroke="currentColor" stroke-width="2" d="M8 14h16v10H8zM12 14V9h8v5M11 19h2m6 0h2M5 18H2m28 0h-3"/></svg></div><h3>Robotics Trust</h3><p>Help robots and fleets prove identity, software state, operator authorization, sensor provenance, and trusted operation.</p><a class="link" href="solutions.html#robotics">View Robotics Trust</a></article>
-          <article class="card"><div class="icon-box" aria-hidden="true"><svg viewBox="0 0 32 32"><path fill="none" stroke="currentColor" stroke-width="2" d="M7 7h18v18H7zM12 12h8v8h-8zM2 11h5m18 0h5M2 21h5m18 0h5M11 2v5m10-5v5m-10 18v5m10-5v5"/></svg></div><h3>Chip & Chiplet Trust Tracking</h3><p>Use PUF-derived hardware identity as one layer of trust evidence when integrated with manufacturing and verification workflows.</p><a class="link" href="solutions.html#chiplet">View Chiplet Trust Tracking</a></article>
+          <article class="card"><h3>FIDO2 + Custom Scenario Functions</h3><p>Use FIDO2/WebAuthn as the standard authentication path, then add IIST hardware-rooted companion functions for device identity, challenge-response, secure lifecycle events, and scenario-specific trust.</p><a class="link" href="solutions.html">View Solutions</a></article>
+          <article class="card"><h3>C2PA-Compatible Provenance</h3><p>Support content authenticity and machine-data provenance workflows where content, logs, reports, or sensor evidence can be signed and verified.</p><a class="link" href="solutions.html#c2pa">View Solutions</a></article>
+          <article class="card"><h3>Robotics Trust</h3><p>Help robots and connected machines prove identity, accept authorized commands, report trustworthy data, and maintain evidence across the lifecycle.</p><a class="link" href="solutions.html#robotics">View Solutions</a></article>
+          <article class="card"><h3>Chip and Chiplet Trust Tracking</h3><p>Use Dynamic PUF as a hardware-rooted trust tracker for traceability, anti-substitution evidence, and lifecycle verification when combined with manufacturing records and verification policy.</p><a class="link" href="solutions.html#chiplet">View Solutions</a></article>
         </div>
-        <div class="notice warning" style="margin-top:24px"><strong>C2PA notice:</strong> Official C2PA Trust List / root certificate registration is pending. Qualified customers can discuss enterprise, private, pilot, or staged trust-chain deployment models.</div>
-      </div>
-    </section>
-
-    <section class="section dark-band">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Architecture</p>
-          <h2>One connected product. Many trust functions. One hardware-rooted foundation.</h2>
-          <p class="lead">Authentication, provenance, secure communication, firmware trust, and PQC migration are connected in real products. IIST helps device makers build these functions from a common hardware-rooted trust foundation.</p>
-        </div>
-        <div class="grid three">
-          <article class="card dark"><h3>Device Identity</h3><p>Prove a device is tied to a physical hardware instance.</p></article>
-          <article class="card dark"><h3>FIDO2 & Access</h3><p>Support passwordless and phishing-resistant authentication workflows.</p></article>
-          <article class="card dark"><h3>Secure Channels</h3><p>Strengthen device-to-device and device-to-cloud trust.</p></article>
-          <article class="card dark"><h3>Signed Provenance</h3><p>Sign data, logs, outputs, and content authenticity records.</p></article>
-          <article class="card dark"><h3>Firmware Trust</h3><p>Support update workflows and lifecycle verification.</p></article>
-          <article class="card dark"><h3>PQC-Ready Planning</h3><p>Prepare long-life products for future cryptographic migration paths.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Products</p>
-          <h2>Hardware formats for real deployment.</h2>
-          <p class="lead">IIST productizes Dynamic PUF into practical hardware formats for evaluation, integration, production, and portable trust workflows.</p>
-        </div>
-        <div class="grid four">
-          <article class="product-card"><span class="label">Secure co-processor</span><h3>SASE01EPZS / SASe Chip</h3><p>Secure co-processor for embedded trust anchoring, designed for hardware-rooted identity and lifecycle support.</p><a class="link" href="products.html#sase">View Product Brief</a></article>
-          <article class="product-card"><span class="label">Roadmap platform</span><h3>SASp Secure MCU</h3><p>Secure MCU platform roadmap for programmable trust functions and PQC-ready product planning.</p><a class="link" href="products.html#sasp">Discuss Roadmap</a></article>
-          <article class="product-card"><span class="label">Integration accelerator</span><h3>Trust Modules</h3><p>Ready-to-integrate hardware trust modules for evaluation and pilot deployment.</p><a class="link" href="products.html#modules">Discuss Module Integration</a></article>
-          <article class="product-card"><span class="label">Portable trust anchor</span><h3>Ankhor Key</h3><p>Portable hardware trust anchor for FIDO2 authentication, access workflows, signing, and operator trust scenarios.</p><a class="link" href="products.html#ankhor">View Ankhor Key</a></article>
-        </div>
+        <div class="notice warning" style="margin-top:24px"><strong>C2PA notice:</strong> Official C2PA Trust List / root certificate registration is pending. Qualified customers can discuss private, enterprise, pilot, or staged trust-chain deployment models.</div>
       </div>
     </section>
 
     <section class="section wash">
-      <div class="container split">
-        <div>
-          <p class="eyebrow">Credibility</p>
-          <h2>Built from semiconductor design to real integration.</h2>
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Products</p>
+          <h2>Products and platforms.</h2>
         </div>
-        <ul class="check-list">
-          <li>Dynamic PUF-based hardware trust platform</li>
-          <li>10,000+ PUF chips produced and validated</li>
-          <li>Security evaluation resources available</li>
-          <li>OEM integration and pilot support</li>
-          <li>SESIP resources and CRA mapping discussions</li>
-          <li>Built for chips, modules, USB keys, and secure MCU roadmap</li>
-        </ul>
+        <div class="grid four">
+          <article class="product-card"><span class="label">Secure co-processor</span><h3>SASE01EPZS / SASe Chip</h3><p>A Dynamic PUF-based secure co-processor platform designed to help embedded systems add hardware-rooted identity, trust separation, challenge-response behavior, and protected lifecycle functions.</p></article>
+          <article class="product-card"><span class="label">Roadmap platform</span><h3>SASp Secure MCU</h3><p>A secure MCU direction for teams that need programmable trust functions, hardware-rooted identity, and long-term security architecture planning.</p></article>
+          <article class="product-card"><span class="label">Integration path</span><h3>Trust Modules</h3><p>Ready-to-integrate modules for pilots, OEM evaluation, and system-level deployment planning.</p></article>
+          <article class="product-card"><span class="label">Portable anchor</span><h3>Ankhor Key</h3><p>A hardware trust key for FIDO2 authentication paths, operator scenarios, signing workflows, and portable trust applications.</p></article>
+        </div>
+        <div class="section-actions"><a class="btn" href="products.html">View Products</a></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split top">
+        <div>
+          <p class="eyebrow">Resources</p>
+          <h2>Technical depth is available through qualified discussion.</h2>
+          <p class="lead">The public website keeps product information high-level. IIST provides deeper product details, integration notes, development kit information, SESIP-related evaluation resources, and CRA mapping support through qualified technical discussions.</p>
+        </div>
+        <div class="section-actions"><a class="btn" href="resources.html">View Resources</a></div>
+      </div>
+    </section>
+
+    <section class="section wash">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">About IIST</p>
+          <h2>Building trust from silicon.</h2>
+          <p class="lead">IIST Inc. develops hardware-rooted trust technology for connected devices. The company combines Dynamic PUF, hardware entropy, secure key derivation concepts, and practical product formats to support authentication, data integrity, device identity, robotics trust, chip traceability, and secure lifecycle applications.</p>
+        </div>
+        <div class="badges">
+          <span class="badge light">Semiconductor security</span>
+          <span class="badge light">Dynamic PUF technology</span>
+          <span class="badge light">Embedded trust architecture</span>
+          <span class="badge light">OEM integration support</span>
+          <span class="badge light">SESIP-related evaluation resources</span>
+          <span class="badge light">CRA application mapping support</span>
+          <span class="badge light">Selected public patent families across PUF entropy, stabilization, multiple hardware signatures, and root-key entanglement</span>
+        </div>
       </div>
     </section>
 
     <section class="section dark-band tight">
       <div class="container split">
         <div>
-          <p class="eyebrow">Next step</p>
-          <h2>Build trust where it starts.</h2>
-          <p class="lead">Whether you are designing a router, gateway, AIoT product, robotic system, secure data workflow, or long-life connected device, IIST can help you evaluate how hardware-rooted trust fits into your product architecture.</p>
+          <p class="eyebrow">Next Step</p>
+          <h2>Start with the trust problem you need to solve.</h2>
+          <p class="lead">Whether you are building a connected product, securing a machine, evaluating device identity, or planning a CRA security case, IIST can help map the right hardware-rooted trust path.</p>
         </div>
         <div class="section-actions">
-          <a class="btn" href="contact.html">Contact IIST</a>
-          <a class="btn dark-secondary" href="mailto:service@iist.com.tw?subject=IIST%20Technical%20Package%20Request">Request Technical Package</a>
+          <a class="btn" href="contact.html">Talk to IIST</a>
+          <a class="btn dark-secondary" href="solutions.html">View Solutions</a>
         </div>
       </div>
     </section>
   </main>
+
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div><h2>IIST Inc.</h2><p>Hardware-rooted trust for connected devices.</p><p>IIST builds Dynamic PUF-based chips, modules, and portable trust hardware for authentication, device identity, content authenticity, secure communication, robotics trust, and trusted lifecycle infrastructure.</p></div>
-      <div><h3>Solutions</h3><ul><li><a href="solutions.html#fido2">Authentication & FIDO2</a></li><li><a href="solutions.html#c2pa">Content Authenticity</a></li><li><a href="solutions.html#robotics">Robotics Trust</a></li><li><a href="solutions.html#chiplet">Chip & Chiplet Tracking</a></li><li><a href="solutions.html#sesip-cra">Evaluation & CRA Mapping</a></li></ul></div>
+      <div><h2>IIST Inc.</h2><p>Hardware-rooted trust for connected devices.</p><p>Intelligent Information Security Technology Inc. builds Dynamic PUF-based trust foundations for connected-device identity, authentication, provenance, and lifecycle security.</p></div>
+      <div><h3>Solutions</h3><ul><li><a href="solutions.html#fido2">FIDO2 and companion trust</a></li><li><a href="solutions.html#c2pa">C2PA-compatible provenance</a></li><li><a href="solutions.html#robotics">Robotics trust</a></li><li><a href="solutions.html#chiplet">Chip and chiplet tracking</a></li></ul></div>
       <div><h3>Products</h3><ul><li><a href="products.html#sase">SASE01EPZS / SASe Chip</a></li><li><a href="products.html#sasp">SASp Secure MCU</a></li><li><a href="products.html#modules">Trust Modules</a></li><li><a href="products.html#ankhor">Ankhor Key</a></li></ul></div>
-      
-      <div><h3>Contact</h3><ul><li><a href="mailto:service@iist.com.tw">service@iist.com.tw</a></li><li><a href="https://www.iist-site.com">www.iist-site.com</a></li></ul></div>
+      <div><h3>Resources</h3><ul><li><a href="resources.html#technical-resources">Technical resources</a></li><li><a href="resources.html#sesip-cra">SESIP / CRA mapping</a></li><li><a href="resources.html#patents">Patent references</a></li></ul></div>
+      <div><h3>Contact</h3><ul><li><a href="contact.html">Talk to IIST</a></li><li><a href="mailto:service@iist.com.tw">service@iist.com.tw</a></li></ul></div>
     </div>
     <div class="container footer-bottom">
-      
-      <p class="footer-note">Technical information is provided for evaluation and integration planning. Final implementation, assurance level, compliance posture, and system security depend on the complete customer product, software, lifecycle process, operating environment, documentation, and threat model.</p>
+      <p class="footer-note">Technical information on this website is provided for evaluation and integration planning. Detailed product specifications are available through qualified technical discussions. Final implementation, compliance, and security claims depend on the complete customer product, system architecture, software lifecycle, and operating environment.</p>
     </div>
   </footer>
   <script src="assets/js/site.js"></script>
